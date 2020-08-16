@@ -1,0 +1,84 @@
+.culture-img2-container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.culture-img2 {
+    width: 55%;
+}
+
+.culture-img2-p {
+    width: 35%;
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.culture-img4-container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.culture-img4 {
+    width: 55%;
+}
+.culture-img4-p {
+    width: 35%;
+    color: white;
+    margin-left: 5%;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+.culture-img1-m {
+    display: none;
+}
+.culture-img3-m {
+    display: none;
+}
+.culture-img5-m {
+    display: none;
+}
+
+@media only screen and (max-width: 700px){
+    .culture-img1-m {
+        display: block;
+    }
+    .culture-img1 {
+        display: none;
+    }
+    .culture-img3-m {
+        display: block;
+    }
+    .culture-img3 {
+        display: none;
+    }
+    .culture-img5-m {
+        display: block;
+    }
+    .culture-img5 {
+        display: none;
+    }
+    .culture-img2-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .culture-img4-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .culture-img2, .culture-img4 {
+        width: 100%;
+    }
+    .culture-img2-p, .culture-img4-p {
+        width: 95%;
+        text-align: center;
+        padding: 1rem 0 1rem 0;
+        margin-left: 0;
+    }
+}

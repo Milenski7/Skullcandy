@@ -1,0 +1,23 @@
+.icon-wireless-img5-m {
+    display: none;
+    width: 100%;
+}
+.icon-wireless-img6-m {
+    display: none;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px){
+    .icon-wireless-img5-m {
+        display: block;
+    }
+    .icon-wireless-img5 {
+        display: none;
+    }
+    .icon-wireless-img6 {
+        display: none;
+    }
+    .icon-wireless-img6-m {
+        display: block;
+    }
+}

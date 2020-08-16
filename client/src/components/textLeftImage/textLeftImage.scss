@@ -1,0 +1,111 @@
+.text-left-image-container {
+    width: 100%;
+    height: 27rem;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.text-left-image {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-left-image-header {
+    font-size: 2.8rem;
+    color: white;
+    font-weight: 800;
+    letter-spacing: -0.2rem;
+    line-height: 2.5rem;
+    width: 35%;
+}
+
+.text-left-image-p {
+    width: 35%;
+    color: white;
+    font-size: 0.9rem;
+    margin: 1rem 0 0 0;
+}
+.text-left-image-button-container {
+    width: 35%;
+    display: flex;
+    margin: 1rem 0 0 0;
+}
+
+.text-left-image-button {
+    padding: 1rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    &:hover {
+        background-color: navajowhite;
+    }
+}
+.text-left-image-container-m {
+    display: none;
+}
+
+@media only screen and (max-width: 836px){
+    .text-left-image-container-m {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .text-left-image-container {
+        display: none;
+    }
+    .text-left-img-m {
+        width: 100%;
+        height: 100%;
+    }
+    .text-left-image {
+        position: absolute;
+        top: 5%;
+        left: 2.5%;
+        width: 95%;
+        height: 90%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .text-left-image-header {
+        width: 95%;
+        text-align: center;
+        margin: 0.2rem 0 0 0;
+    }
+    .text-left-image-p {
+        width: 95%;
+        text-align: center;
+        margin: 1rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .text-left-image-header {
+        font-size: 2rem;
+    }
+    .text-left-image-p {
+        font-size: 0.7rem;
+    }
+    .text-left-image {
+        height: 100%;
+    }
+    .text-left-image-header {
+        font-size: 1.5rem;
+        letter-spacing: normal;
+    }
+    .text-left-image-button-container {
+        width: 100%;
+        justify-content: center;
+    }
+    .text-left-image-button {
+        width: 70%;
+    }
+}

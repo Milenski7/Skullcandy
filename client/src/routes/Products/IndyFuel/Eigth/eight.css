@@ -1,0 +1,70 @@
+.eight-container {
+  width: 100%;
+  height: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("eight.jpg");
+  background-size: cover;
+}
+
+.eight {
+  width: 85%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.eight-img {
+  width: 10%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.eight-p {
+  width: 35%;
+  color: white;
+  font-size: 0.9rem;
+  margin: 1rem 0 0 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .eight-container {
+    background-image: url("mobile.webp");
+    height: 50rem;
+    background-position: bottom center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .eight {
+    width: 95%;
+    height: 90%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .eight-p {
+    width: 95%;
+    text-align: center;
+  }
+  .eight-img {
+    width: 25%;
+  }
+}
+/*# sourceMappingURL=eight.css.map */

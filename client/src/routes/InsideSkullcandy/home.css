@@ -1,0 +1,111 @@
+.inside-final-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1b1b1b;
+}
+
+.inside-final {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5rem 0 5rem 0;
+}
+
+.inside-final-item {
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inside-final-item-img {
+  width: 30%;
+  margin-bottom: 1rem;
+}
+
+.inside-final-item-header {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.inside-final-item-p {
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.inside-final-item-learn-more {
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.inside-final-item-learn-more:hover {
+  color: navajowhite;
+}
+
+.inside-final-item-learn-more::after {
+  content: "";
+  position: absolute;
+  bottom: -0.4rem;
+  left: 25%;
+  height: 2px;
+  width: 50%;
+  border-bottom: 1px solid navajowhite;
+}
+
+.inside-final-item-learn-more:hover::after {
+  width: 100%;
+  left: 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@media only screen and (max-width: 821px) {
+  .inside-final {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  .inside-final {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .inside-final-item {
+    margin-bottom: 4rem;
+    width: 100%;
+  }
+  .inside-final-item-img {
+    width: 20%;
+  }
+}
+/*# sourceMappingURL=home.css.map */

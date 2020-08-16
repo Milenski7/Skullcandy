@@ -1,0 +1,19 @@
+.strong-bundle-img2 {
+  width: 100%;
+  color: #c70101;
+}
+
+.strong-bundle-img2-m {
+  display: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .strong-bundle-img2 {
+    display: none;
+  }
+  .strong-bundle-img2-m {
+    display: block;
+  }
+}
+/*# sourceMappingURL=strongBundle.css.map */

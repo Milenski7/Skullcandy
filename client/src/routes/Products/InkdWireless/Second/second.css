@@ -1,0 +1,32 @@
+.second-container-inkd-wireless {
+  width: 100%;
+  height: 35rem;
+  background-image: url("../img2.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-img-mobile {
+  width: 100%;
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .second-img-mobile {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .second-container-inkd-wireless {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=second.css.map */

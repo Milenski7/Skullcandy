@@ -1,0 +1,16 @@
+@media only screen and (max-width: 500px) {
+  .indy-fuel-first-header {
+    line-height: normal;
+    letter-spacing: normal;
+    width: 95%;
+    text-align: center;
+  }
+  .indy-fuel-first-description {
+    width: 100%;
+    text-align: center;
+    letter-spacing: normal;
+    font-size: 0.9rem;
+    line-height: normal;
+  }
+}
+/*# sourceMappingURL=firstProduct.css.map */

@@ -1,0 +1,80 @@
+.dashboard-container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dashboard {
+  width: 80%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5rem 0 5rem 0;
+}
+
+.dashboard-header {
+  font-size: 2rem;
+  margin: 3rem 0 3rem 0;
+}
+
+.dashboard-logout {
+  width: 15%;
+  padding: 0.5rem;
+  color: black;
+  background-color: #b5eb5e;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 0 0 2rem 0;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  cursor: pointer;
+}
+
+.dashboard-delete-profile {
+  width: 20%;
+  padding: 0.5rem;
+  color: white;
+  background-color: #b22020;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .dashboard {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .dashboard-header {
+    width: 95%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .dashboard-delete-profile {
+    font-size: 0.7rem;
+  }
+  .dashboard-logout {
+    font-size: 0.7rem;
+  }
+}
+/*# sourceMappingURL=dashboard.css.map */

@@ -1,0 +1,48 @@
+.drawer3 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.drawer3-1 {
+  width: 25%;
+  height: 15rem;
+  border-left: 0.5px solid grey;
+  border-right: 0.5px solid grey;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.drawer3-img {
+  height: 70%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.drawer3-img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: -webkit-transform 0.4s linear;
+  transition: -webkit-transform 0.4s linear;
+  transition: transform 0.4s linear;
+  transition: transform 0.4s linear, -webkit-transform 0.4s linear;
+}
+
+.drawer3-text {
+  height: 30%;
+  font-weight: 800;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+  letter-spacing: -0.12rem;
+  padding: 0.2rem 0 0 0;
+}
+/*# sourceMappingURL=drawer3.css.map */

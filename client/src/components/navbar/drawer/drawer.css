@@ -1,0 +1,161 @@
+.drawer-container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 705;
+  background-color: white;
+  -webkit-animation: slideIn 0.5s linear;
+          animation: slideIn 0.5s linear;
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+}
+
+@-webkit-keyframes slideIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.drawer {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1.5rem 0 0 0;
+}
+
+.drawer-left {
+  width: 20%;
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.drawer-left::after {
+  content: "";
+  position: absolute;
+  border-right: 0.8px solid grey;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 70%;
+}
+
+.drawer-left-link {
+  font-size: 0.7rem;
+  cursor: pointer;
+  padding: 0.2rem 0 0.2rem 0;
+  text-decoration: none;
+  color: black;
+}
+
+.drawer-left-link:hover {
+  color: darkgrey;
+}
+
+.drawer-center {
+  width: 50%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.drawer-center-list1-header,
+.drawer-center-list2-header,
+.drawer-center-list3-header {
+  font-size: 0.8rem;
+  padding: 0 0 0.2rem 0;
+}
+
+.drawer-center-list2-header2 {
+  padding: 0.5rem 0 0 0;
+  font-size: 0.8rem;
+}
+
+.drawer-center-list1-link,
+.drawer-center-list2-link,
+.drawer-center-list3-link {
+  font-size: 0.7rem;
+  padding: 0.2rem 0 0.2rem 0;
+  cursor: pointer;
+}
+
+.drawer-center-list1-link:hover,
+.drawer-center-list2-link:hover,
+.drawer-center-list3-link:hover {
+  color: #858585;
+}
+
+.drawer-right {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.drawer-right-img {
+  height: 8rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.drawer-right-bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.drawer-right-bottom-text {
+  font-size: 0.6rem;
+  cursor: pointer;
+}
+
+.drawer-right-arrow {
+  cursor: pointer;
+}
+/*# sourceMappingURL=drawer.css.map */

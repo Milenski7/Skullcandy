@@ -1,0 +1,81 @@
+.charged-container {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  background-image: url("jumbo.jpg");
+  background-size: cover;
+}
+
+.charged-header {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+  width: 20rem;
+  letter-spacing: -0.15rem;
+  line-height: 1.9rem;
+}
+
+.charged-p {
+  position: absolute;
+  top: 43%;
+  left: 12%;
+  font-size: 0.9rem;
+  color: white;
+  width: 20rem;
+}
+
+.charged-button {
+  position: absolute;
+  top: 55%;
+  left: 12%;
+  font-size: 0.7rem;
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.charged-button:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+@media only screen and (max-width: 744px) {
+  .charged-container {
+    background-image: url("mobile.jpg");
+    height: 40rem;
+  }
+  .charged-header {
+    width: 95%;
+    text-align: center;
+    left: 2.5%;
+    top: 5%;
+  }
+  .charged-p {
+    width: 90%;
+    text-align: center;
+    left: 5%;
+    top: 20%;
+  }
+  .charged-button {
+    width: 90%;
+    left: 5%;
+    padding: 1rem;
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 536px) {
+  .charged-container {
+    height: 30rem;
+  }
+  .charged-button {
+    top: 40%;
+  }
+}
+/*# sourceMappingURL=charged.css.map */

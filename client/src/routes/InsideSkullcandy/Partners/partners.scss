@@ -1,0 +1,220 @@
+.partners-section1-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+}
+
+.partners-section1-header {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.15rem;
+    color: white;
+    margin: 2rem 0 1rem 0;
+}
+
+.partners-section1-button-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 2rem 0;
+}
+
+.partners-section1-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 30px;
+    width: 30%;
+    font-size: 0.8rem;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(59, 59, 59);
+    }
+}
+
+.partners-section2-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+
+.partners-section2-img {
+    width: 100%;
+}
+
+.partners-section2-img2 {
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    width: 10%;
+}
+.partners-section2-p {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    color: white;
+    width: 50%;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.partners-section3-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.partners-section3-img {
+    width: 50%;
+}
+.partners-section3-p {
+    color: white;
+    width: 40%;
+    text-align: justify;
+    margin-right: 5%;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.partners-section4-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-section4-header {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 2rem 0 2rem 0;
+}
+
+.partners-section4-img {
+    width: 15%;
+}
+.partners-section4-p {
+    font-size: 0.7rem;
+    padding: 1rem 0 2rem 0;
+}
+.partners-section4-img-container {
+    width: 30%;
+    display: flex;
+    padding: 0 0 2rem 0;
+}
+
+.partners-section5-img2 {
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    width: 20%;
+}
+
+.partners-section8-img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.partners-section8-img2 {
+    width: 50%;
+}
+.partners-section10-header {
+    width: 80%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: -0.15rem;
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    color: white;
+}
+.partners-section2-img-m {
+    display: none;
+}
+
+@media only screen and (max-width: 908px){
+    .partners-section1-button-container {
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .partners-section2-img-m {
+        display: block;
+        width: 100%;
+    }
+    .partners-section2-img {
+        display: none;
+    }
+    .partners-section2-img2 {
+        width: 25%;
+        left: 37.5%;
+    }
+    .partners-section2-p {
+        width: 95%;
+        font-size: 0.9rem;
+        left: 2.5%;
+    }
+    .partners-section3-container {
+        flex-direction: column;
+    }
+    .partners-section3-img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .partners-section3-p {
+        width: 90%;
+        text-align: center;
+        margin: 0 0 2rem 0;
+    }
+    .partners-section4-header {
+        width: 95%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .partners-section4-img {
+        width: 40%;
+    }
+    .partners-section5-img2 {
+        width: 50%;
+        left: 25%;
+    }
+    .partners-section4-img-container {
+        width: 95%;
+    }
+    .partners-section10-header {
+        width: 95%;
+        text-align: center;
+        top: 35%;
+        left: 2.5%;
+    }
+}
+@media only screen and (max-width: 532px){
+    .partners-section1-button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .partners-section1-button {
+        margin: 0.5rem 0 0.5rem 0;
+        width: 90%;
+    }
+    .partners-section1-header {
+        width: 95%;
+        text-align: center;
+    }
+    .partners-section10-header {
+        width: 95%;
+        text-align: center;
+        top: 25%;
+        left: 2.5%;
+        font-size: 1.5rem;
+    }
+}

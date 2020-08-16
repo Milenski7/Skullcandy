@@ -1,0 +1,22 @@
+.ninth-img1 {
+    width: 50%;
+}
+
+.ninth-img2 {
+    width: 50%;
+}
+
+.ninth-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+@media only screen and (max-width: 700px){
+    .ninth-container {
+        flex-direction: column;
+    }
+    .ninth-img1, .ninth-img2 {
+        width: 100%;
+    }
+}

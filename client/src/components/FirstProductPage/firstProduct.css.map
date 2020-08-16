@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,uBAAuB,CAAC;IACpB,WAAW,EAAE,MAAM;IACnB,cAAc,EAAE,MAAM;IACtB,KAAK,EAAE,GAAG;IACV,UAAU,EAAE,MAAM;GACrB;EACD,AAAA,4BAA4B,CAAC;IACzB,KAAK,EAAE,IAAI;IACX,UAAU,EAAE,MAAM;IAClB,cAAc,EAAE,MAAM;IACtB,SAAS,EAAE,MAAM;IACjB,WAAW,EAAE,MAAM;GACtB",
+    "sources": [
+        "firstProduct.scss"
+    ],
+    "names": [],
+    "file": "firstProduct.css"
+}

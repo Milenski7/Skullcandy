@@ -1,0 +1,110 @@
+.culture-img2-container {
+  width: 100%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.culture-img2 {
+  width: 55%;
+}
+
+.culture-img2-p {
+  width: 35%;
+  color: white;
+  text-align: left;
+  margin-left: 5%;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.culture-img4-container {
+  width: 100%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.culture-img4 {
+  width: 55%;
+}
+
+.culture-img4-p {
+  width: 35%;
+  color: white;
+  margin-left: 5%;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.culture-img1-m {
+  display: none;
+}
+
+.culture-img3-m {
+  display: none;
+}
+
+.culture-img5-m {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .culture-img1-m {
+    display: block;
+  }
+  .culture-img1 {
+    display: none;
+  }
+  .culture-img3-m {
+    display: block;
+  }
+  .culture-img3 {
+    display: none;
+  }
+  .culture-img5-m {
+    display: block;
+  }
+  .culture-img5 {
+    display: none;
+  }
+  .culture-img2-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .culture-img4-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .culture-img2, .culture-img4 {
+    width: 100%;
+  }
+  .culture-img2-p, .culture-img4-p {
+    width: 95%;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=culture.css.map */

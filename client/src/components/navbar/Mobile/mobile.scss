@@ -1,0 +1,90 @@
+.mobile-drawer-container {
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 712;
+}
+
+.mobile-drawer {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.mobile-drawer-link {
+    font-size: 0.8rem;
+    font-weight: 100;
+    padding: 1rem 0 1rem 0.5rem;
+}
+
+.mobile-drawer-icon {
+    margin: 1rem 0 1rem 0.5rem;
+}
+
+.mobile-drawer-backdrop {
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    right: 0;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.mobile-drawer-logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+.mobile-drawer-icon-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.mobile-drawer-icon-text {
+    margin-left: 1rem;
+}
+
+.mobile-drawer-link-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.mobile-drawer-link-icon { 
+    margin: 0 1rem 0 1rem;
+    transition: transform 0.3s linear;
+    cursor: pointer;
+}
+
+.mobile-drawer-shop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
+.mobile-drawer-mood-boost {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
+.mobile-drawer-mood-boost-img1, .mobile-drawer-mood-boost-img2 {
+    width: 100%;
+}
+
+.mobile-drawer-shop-link {
+    padding: 0.5rem;
+    cursor: pointer;
+}

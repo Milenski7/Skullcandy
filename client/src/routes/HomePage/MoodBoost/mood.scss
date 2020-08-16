@@ -1,0 +1,25 @@
+.mood-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.mood-gif {
+    width: 100%;
+    cursor: pointer;
+}
+
+.mood-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 740px){
+    .mood-gif {
+        display: none;
+    }
+    .mood-mobile {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,307 @@
+.indy-fuel-container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.indy-fuel-first {
+  width: 100%;
+  height: 40rem;
+  background-image: url("top-photo.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.indy-fuel-first-header {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.2rem;
+  line-height: 2.2rem;
+  color: white;
+  margin: 3.5rem 0 0 4.5rem;
+  width: 25%;
+}
+
+.indy-fuel-first-description {
+  font-size: 1.4rem;
+  letter-spacing: -0.1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin: 1.5rem 0 0 4.5rem;
+  width: 25%;
+}
+
+.indy-fuel-first-price {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin: 1rem 0 0 4.5rem;
+  width: 25%;
+}
+
+.indy-fuel-first-quantity-container {
+  width: 25%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5rem 0 0 3.5rem;
+}
+
+.indy-fuel-quantity-icon {
+  color: white;
+  background-color: #5f5f5f;
+  margin: 0 1rem 0 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.indy-fuel-quantity-icon:hover {
+  background-color: darkgrey;
+}
+
+.indy-fuel-quantity-counter {
+  font-size: 1.5rem;
+  color: white;
+  border-bottom: 1px solid grey;
+}
+
+.indy-fuel-add-to-cart {
+  padding: 0.8rem;
+  text-decoration: none;
+  color: black;
+  border: none;
+  outline: none;
+  font-size: 0.7rem;
+  border-radius: 0.3em;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  width: 10rem;
+  cursor: pointer;
+}
+
+.indy-fuel-add-to-cart:before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 2rem;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -4.5rem;
+  -webkit-transform: skewX(-45deg) translateX(0);
+          transform: skewX(-45deg) translateX(0);
+  -webkit-transition: none;
+  transition: none;
+}
+
+.indy-fuel-add-to-cart:hover {
+  background-color: darkgrey;
+  color: #fff;
+}
+
+.indy-fuel-add-to-cart:hover:before {
+  -webkit-transform: skewX(-45deg) translateX(15rem);
+          transform: skewX(-45deg) translateX(15rem);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.indy-fuel-app {
+  margin: 1.5rem 0 0 4.5rem;
+  color: white;
+  font-size: 0.7rem;
+  border-bottom: 0.5px solid white;
+  border-top: 0.5px solid white;
+  width: 20%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.indy-fuel-video {
+  margin: 1.5rem 0 0 4.5rem;
+  color: white;
+  font-size: 0.7rem;
+  border-bottom: 0.5px solid white;
+  border-top: 0.5px solid white;
+  width: 20%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  cursor: pointer;
+}
+
+.indy-fuel-img {
+  width: 100%;
+}
+
+.indy-fuel-first-m {
+  display: none;
+  width: 100%;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.indy-fuel-img-m {
+  display: none;
+}
+
+@media only screen and (max-width: 952px) {
+  .indy-fuel-first-m-image {
+    background-image: url("mobile1.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .indy-fuel-first {
+    display: none;
+  }
+  .indy-fuel-first-m {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .indy-fuel-first-text {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    justify-items: center;
+    background-color: black;
+  }
+  .indy-fuel-first-quantity-container {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+  }
+  .indy-fuel-app {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+    width: 47%;
+    text-align: center;
+    border-bottom: none;
+    margin-left: 0;
+  }
+  .indy-fuel-video {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+    width: 47%;
+    text-align: center;
+    border-bottom: none;
+    padding-bottom: 2rem;
+    margin-left: 0;
+  }
+  .indy-fuel-first-description {
+    width: 90%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .indy-fuel-first-header {
+    width: 90%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .indy-fuel-first-price {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .indy-fuel-first-header {
+    font-size: 1.5rem;
+  }
+  .indy-fuel-first-description {
+    font-size: 1rem;
+  }
+  .indy-fuel-first-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .indy-fuel-first-quantity-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .indy-fuel-quantity-icon {
+    margin: 1rem 0 1rem 0;
+  }
+  .indy-fuel-img {
+    display: none;
+  }
+  .indy-fuel-img-m {
+    display: block;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=indyFuel.css.map */

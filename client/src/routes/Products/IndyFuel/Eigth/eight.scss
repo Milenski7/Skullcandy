@@ -1,0 +1,51 @@
+.eight-container {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    background-image: url("eight.jpg");
+    background-size: cover;
+}
+
+.eight {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eight-img {
+    width: 10%;
+    height: auto;
+    object-fit: cover;
+}
+
+.eight-p {
+    width: 35%;
+    color: white;
+    font-size: 0.9rem;
+    margin: 1rem 0 0 0;
+}
+
+@media only screen and (max-width: 700px){
+    .eight-container {
+        background-image: url("mobile.webp");
+        height: 50rem;
+        background-position: bottom center;
+        justify-content: center;
+    }
+    .eight  {
+        width: 95%;
+        height: 90%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .eight-p {
+        width: 95%;
+        text-align: center;
+    }
+    .eight-img {
+        width: 25%;
+    }
+}

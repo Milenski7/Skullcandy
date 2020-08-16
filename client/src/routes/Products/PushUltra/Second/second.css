@@ -1,0 +1,42 @@
+.second-container2 {
+  width: 100%;
+  height: 35rem;
+  background-image: url("2.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-container2-m {
+  display: none;
+}
+
+@media only screen and (max-width: 972px) {
+  .second-container2 {
+    display: none;
+  }
+  .second-container2-m {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .second-container-icons2 {
+    padding: 2rem 0 2rem 0;
+    background-color: #f1e101;
+  }
+}
+/*# sourceMappingURL=second.css.map */

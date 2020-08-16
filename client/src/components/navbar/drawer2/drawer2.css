@@ -1,0 +1,77 @@
+.drawer2 {
+  width: 100%;
+  height: 28rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 4px solid black;
+  overflow: hidden;
+}
+
+.drawer2-left {
+  background-image: url("drawer1.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 45%;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.drawer2-left:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+}
+
+.drawer2-left-header {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 800;
+  letter-spacing: -0.25rem;
+  position: absolute;
+  top: 45%;
+  left: 18%;
+}
+
+.drawer2-center {
+  background-image: url("drawer2.jpg");
+  background-size: contain;
+  height: 100%;
+  width: 10%;
+}
+
+.drawer2-right {
+  background-image: url("drawer3.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 45%;
+  position: relative;
+  cursor: pointer;
+}
+
+.drawer2-right:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+}
+
+.drawer2-right-header {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 800;
+  letter-spacing: -0.25rem;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+}
+/*# sourceMappingURL=drawer2.css.map */

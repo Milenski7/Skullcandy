@@ -1,0 +1,132 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 710;
+}
+
+.nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.nav-logo {
+    width: 2rem;
+}
+
+.nav-brand-text {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.nav-list1 {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list1-link {
+    color: white;
+    font-size: 0.65rem;
+    text-decoration: none;
+    padding: 0 1rem 0 1rem;
+    position: relative;
+}
+.nav-list1-link:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 25%;
+    width: 50%;
+    height: 0.5px;
+    border-bottom: 1.5px solid grey;
+    animation: fadeIn 0.3s linear;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0.3} to {opacity: 1}
+}
+
+
+
+.nav-list2 {
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list2-icon {
+    color: rgb(219, 219, 219);
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+
+.nav-bottom {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bottom-p {
+    width: 70%;
+    text-align: center;
+    color: rgb(221, 221, 221);
+    font-size: 0.6rem;
+    padding: 0.7rem 0 0.7rem 0;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+@media only screen and (max-width: 761px){
+    .nav {
+        display: none;
+    }
+    .nav-bottom {
+        display: none !important;
+    }
+    .mobile-nav {
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-nav-bars {
+        color: white;
+        cursor: pointer;
+    }
+    .mobile-nav-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-logo {
+        width: 20%;
+    }
+    .mobile-nav-center-text {
+        color: white;
+    }
+    .mobile-nav-cart {
+        color: white;
+        cursor: pointer;
+    }
+}

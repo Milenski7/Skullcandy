@@ -1,0 +1,136 @@
+.third-container4-indy {
+    width: 100%;
+    height: 90rem;
+    display: flex;
+    justify-content: center;
+    background-image: url("3.jpg");
+    background-size: cover;
+}
+
+.third4 {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.third4-top {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.third4-top-header {
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: -0.2rem;
+    line-height: 2.5rem;
+    width: 35%;
+}
+
+.third4-top-p {
+    width: 35%;
+    font-size: 0.9rem;
+    margin: 1rem 0 0 0;
+}
+
+.third4-bottom {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.third4-bottom-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third4-bottom-icon {
+    width: 15%;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.third4-bottom-header {
+    font-size: 0.9rem;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.third4-bottom-p {
+    font-size: 0.7rem;
+    width: 90%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+    .third-container4-indy {
+        background-image: url("../mobile5.webp");
+        height: 120rem;
+    }
+    .third4 {
+        justify-content: flex-start !important;
+    }
+    .third4-top {
+        width: 100%;
+        justify-content: flex-start !important;
+        align-items: center;
+        padding: 4rem 0 0rem 0;
+    }
+    .third4-top-header {
+        width: 100% !important;
+        text-align: center;
+    }
+    .third4-top-p {
+        width: 100% !important;
+        text-align: center;
+    }
+    .third4-bottom {
+        width: 100% !important;
+        height: 10% !important;
+        margin: 38rem 0 0 0;
+    }
+    .third4-bottom-container {
+        width: 100% !important;
+    }
+    .third4-bottom-header {
+        width: 95%;
+        text-align: center;
+    }
+    .third4-bottom-p {
+        width: 95%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 572px){
+    .third4-bottom {
+        margin: 20rem 0 0 0;
+    }
+}
+@media only screen and (max-width: 472px){
+    .third4-bottom {
+        margin: 12rem 0 0 0;
+    }
+}
+@media only screen and (max-width: 400px){
+    .third4-top-header {
+        font-size: 1.5rem !important;
+        line-height: normal !important;
+        letter-spacing: normal !important;
+    }
+    .third4-top {
+        padding: 1rem 0 0 0;
+    }
+    .third4-top-p {
+        font-size: 0.8rem !important;
+    }
+    .third4-bottom {
+        margin: 8rem 0 0 0;
+    }
+}
